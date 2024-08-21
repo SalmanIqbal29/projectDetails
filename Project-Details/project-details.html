@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Stylish Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #1e3a8a, #2d3748);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .project {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .project:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .project h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #1e40af;
+        }
+        .project p {
+            font-size: 1rem;
+            color: #4a5568;
+        }
+        footer {
+            background: #2d3748;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>My Stylish Portfolio</h1>
+        <p>Showcasing my projects with style</p>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section>
+            <h2 style="font-size: 2rem; margin-bottom: 20px; color: #2d3748;">Projects</h2>
+            <div class="projects">
+                <!-- Project 1 -->
+                <div class="project">
+                    <h3>Project 1</h3>
+                    <p>This is a brief description of Project 1. It showcases the work done and the technologies used.</p>
+                </div>
+                <!-- Project 2 -->
+                <div class="project">
+                    <h3>Project 2</h3>
+                    <p>This is a brief description of Project 2. It highlights the key features and achievements of the project.</p>
+                </div>
+                <!-- Example Project 3 -->
+                <div class="project">
+                    <h3>Project 3</h3>
+                    <p>This is a brief description of Project 3. It details the impact and success of the project.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Stylish Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
